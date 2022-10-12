@@ -2,6 +2,9 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
+  a {
+    margin-left: 1rem;
+  }
 `;
 
 export const LinkWrapper = styled.div`
@@ -13,8 +16,8 @@ export const LinkWrapper = styled.div`
   justify-content: center;
   align-items: center;
   color: var(--white);
-  margin-left: 1rem;
   transition: 0.5s;
+  width: 100%;
   &:hover {
     color: var(--blue);
   }
