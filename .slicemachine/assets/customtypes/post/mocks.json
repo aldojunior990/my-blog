@@ -1,0 +1,26 @@
+{
+  "id": "mock-doc-id",
+  "url": null,
+  "type": "post",
+  "href": null,
+  "tags": [],
+  "first_publication_date": "1970-01-01T00:00:01+0000",
+  "last_publication_date": "1970-01-01T00:00:01+0000",
+  "slugs": [],
+  "linked_documents": [],
+  "lang": "en-us",
+  "alternate_languages": [],
+  "data": {
+    "title": "stuck",
+    "tag": "usually",
+    "publication_date": "2017-10-17",
+    "description": "press",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Et nostrud do non qui quis reprehenderit est elit in proident occaecat duis et magna exercitation. Laboris culpa fugiat officia amet dolor mollit consequat non quis pariatur consequat aliqua officia ullamco Lorem.",
+        "spans": []
+      }
+    ]
+  }
+}
