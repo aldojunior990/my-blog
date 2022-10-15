@@ -40,6 +40,12 @@ export const Container = styled.main`
       b {
         font-weight: 600;
       }
+
+      img {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        max-width: 100%;
+      }
     }
   }
 
