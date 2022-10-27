@@ -20,7 +20,7 @@ export const Container = styled.main`
   }
   .content {
     margin-top: 5rem;
-    line-height: 3rem;
+    line-height: 2.5rem;
     color: var(--gray);
     font-weight: 400;
     text-align: left;
@@ -29,9 +29,11 @@ export const Container = styled.main`
       font-size: 2rem;
       font-weight: 700;
       margin-top: 3rem;
-      margin-bottom: 3rem;
+      line-height: 3rem;
     }
     p {
+      margin-top: 3rem;
+      text-align: justify;
       font-size: 1.2rem;
       a {
         color: var(--blue);
@@ -43,7 +45,7 @@ export const Container = styled.main`
 
       img {
         margin-top: 4rem;
-        margin-bottom: 4rem;
+
         max-width: 100%;
       }
     }
