@@ -2,7 +2,6 @@ import type { GetStaticProps, NextPage } from "next";
 import { Header } from "../components/header";
 import { PostsContainer } from "../components/postsContainer";
 import { Presentation } from "../components/presentation";
-import { Tab } from "../components/tab";
 import { MyUseContext } from "../hooks/myUseContext";
 import { getPrismicClient } from "../services/prismic";
 
@@ -24,7 +23,6 @@ export default function Home({ post }: HomeDataProps) {
     <>
       <Header />
       <Presentation />
-      <Tab post={post} />
       <PostsContainer data={post} />
     </>
   );
