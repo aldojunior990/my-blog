@@ -36,9 +36,8 @@ export default function Posts({ post }: PostProps) {
 
   return (
     <>
-      <Head>
-        <title>{`${post.title} `}</title>
-      </Head>
+      <title>{`${post.title} `}</title>
+
       <Header />
 
       {post.tag === "WEB" && (

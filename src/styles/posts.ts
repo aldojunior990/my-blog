@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
 export const Container = styled.main`
-  padding-left: 10rem;
-  padding-right: 10rem;
   .title {
     h1 {
       margin-top: 5rem;
@@ -13,13 +11,13 @@ export const Container = styled.main`
     }
     p {
       margin-top: 1rem;
-      text-align: left;
+
       font-weight: 600;
       color: var(--blue);
     }
   }
   .content {
-    margin-top: 5rem;
+    margin-top: 2.5rem;
     line-height: 2.5rem;
     color: var(--gray);
     font-weight: 400;
@@ -28,11 +26,10 @@ export const Container = styled.main`
     h3 {
       font-size: 2rem;
       font-weight: 700;
-      margin-top: 3rem;
-      line-height: 3rem;
+      padding-top: 2.5rem;
+      padding-bottom: 2.5rem;
     }
     p {
-      margin-top: 3rem;
       text-align: justify;
       font-size: 1.2rem;
       a {
@@ -44,7 +41,8 @@ export const Container = styled.main`
       }
 
       img {
-        margin-top: 4rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
 
         max-width: 100%;
       }
@@ -74,15 +72,19 @@ export const Container = styled.main`
     }
   }
 
-  @media (max-width: 768px) {
+  @media (min-width: 320px) {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  @media (min-width: 768px) {
     padding-left: 4rem;
     padding-right: 4rem;
   }
-
-  @media (max-width: 425px) {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  } ;
+  @media (min-width: 1440px) {
+    padding-left: 25rem;
+    padding-right: 25rem;
+  }
 `;
 
 export const Banner = styled.div`
@@ -105,5 +107,5 @@ export const Banner = styled.div`
   @media (max-width: 425px) {
     padding-left: 1rem;
     padding-right: 1rem;
-  } ;
+  }
 `;
